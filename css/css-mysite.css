@@ -1,0 +1,166 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  margin: 0px;
+  /* font-size: 15px; */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-container {
+
+  max-width: 965px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-container {
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.sub-container:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.6rem;
+  border-bottom-left-radius: 0.6rem;
+}
+
+.sub-container:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.sub-container:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 10px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+img {
+  width: 3rem;
+}
+
+.btn1 {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 2rem;
+  max-width: 100px;
+  border:solid 2px white;
+  color: hsl(31, 77%, 52%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+.btn1:hover{
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+  border:solid 2px white;
+}
+
+.btn2 {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 2rem;
+  max-width: 100px;
+  border:solid 2px white;
+  color: hsl(184, 100%, 22%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+.btn2:hover{
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+  border:solid 2px white;
+}
+
+.btn3 {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 2rem;
+  max-width: 100px;
+  border:solid 2px white;
+  color: hsl(179, 100%, 13%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+.btn3:hover{
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+  border:solid 2px white;
+}
+
+/* .sedans-button {
+  border:hsl(31, 77%, 52%);
+  padding: 10px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 2rem;
+  max-width: 100px;
+  color: hsl(31, 77%, 52%);
+}
+.sedans-button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);;
+  border-color: white;
+
+}
+.suvs-button {
+  border: hsl(184, 100%, 22%);
+  padding: 10px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 2rem;
+  max-width: 100px;
+  color: hsl(184, 100%, 22%);
+}
+.suvs-button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+  border-color: white;
+}
+.luxury-button {
+  border:hsl(179, 100%, 13%);
+  padding: 10px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 2rem;
+  max-width: 100px;
+  color: hsl(179, 100%, 13%);
+}
+.luxury-button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+  border-color: white;
+} */
